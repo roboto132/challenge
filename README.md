@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# challenge-frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al proyecto de la prueba tecnica de XXXX.
 
-Currently, two official plugins are available:
+Este desafío consiste en desarrollar una aplicación web que permita seleccionar países individualmente, con la capacidad de seleccionar o deseleccionar todos los países mediante un checkbox "Select All". Se espera que al seleccionar todos los países individualmente, el checkbox "Select All" se marque automáticamente, y viceversa. Además, si se desmarca uno de los países después de haber seleccionado todos, el checkbox "Select All" debe desmarcarse también. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para poder ejecutar este proyecto en tu computadora, necesitas tener instalado node.js en tu computadora. Puedes descargarlo desde su pagina oficial: https://nodejs.org/es/
 
-## Expanding the ESLint configuration
+*Nota*: Este proyecto fue desarrollado con node por lo que necesitas tenerlo instalado
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Pasos para instalar el proyecto
 
-- Configure the top-level `parserOptions` property like this:
+1. Clonar el repositorio de github ejecutando el siguiente comando:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/roboto132/challenge
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Ubicate en el directorio del proyecto ejecutando el siguiente comando:
+
+```bash
+cd challenge
+```
+
+3. Instala todas las dependencias del proyecto con el siguiente comando:
+
+```bash
+npm install
+```
+
+4. Inicia el proyecto con el siguiente comando:
+
+```bash
+npm run dev
+```
